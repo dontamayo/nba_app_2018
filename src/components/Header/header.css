@@ -4,5 +4,15 @@
 }
 
 .headerOpt {
-  display: 
+  display: flex;
+}
+
+/* using flexbox */
+.logo {
+  flex-grow: 1;
+  padding-top: 8px;
+}
+
+.logo img {
+  width: 35px;
 }
